@@ -11,12 +11,12 @@ if __name__ == "__main__":
 
     new_dict = {}
     staff = requests.get(
-        'https://jsonplaceholder.typicode.com/users/').json()
+    'https://jsonplaceholder.typicode.com/users/').json()
     for item in staff:
         usr = str(item["id"])
         todo_list = requests.get()
-            'https://jsonplaceholder.typicode.com/todos?userId={}'
-            .format(usr)).json()
+        'https://jsonplaceholder.typicode.com/todos?userId={}'
+        .format(usr)).json()
         items = []
         for todo in todo_list:
             dct = {
