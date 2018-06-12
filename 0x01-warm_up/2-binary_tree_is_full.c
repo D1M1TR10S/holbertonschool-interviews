@@ -1,9 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_node - create a binary tree node
- * @parent: parent of node to create
- * @value: value to insert in the binary tree
- * Return: pointer to new node or NULL on failure
+ * binary_tree_is_full - Checks if a binary tree is full
+ * @tree: parent of node to create
+ * Return: 0 if it's not full, 1 if it is
  */
 
 int binary_tree_is_full(const binary_tree_t *tree)
