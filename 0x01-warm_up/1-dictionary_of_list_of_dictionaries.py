@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     new_dict = {}
     staff = requests.get(
-        'https://jsonplaceholder.typicode.com/users/'.json()
+        'https://jsonplaceholder.typicode.com/users/'
     for i in range(len(staff)):
         usr = str(staff[i]["id"])
         todo_list = requests.get(
