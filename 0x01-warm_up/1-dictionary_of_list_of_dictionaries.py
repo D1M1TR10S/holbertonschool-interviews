@@ -15,7 +15,7 @@ if __name__ == "__main__":
     for item in staff:
         usr = str(item["id"])
         todo_list = requests.get()
-        'https://jsonplaceholder.typicode.com/todos?userId={}'
+        "https://jsonplaceholder.typicode.com/todos?userId={}"
         .format(usr)).json()
         items = []
         for todo in todo_list:
